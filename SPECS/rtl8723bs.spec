@@ -1,4 +1,4 @@
-%global snapshotdate 20160707
+%global snapshotdate 20160728
 %global gitcommit 621f7f3d97400e08ff943cff2d352a174e81dd7e
 %global shortcommit %(c=%{gitcommit}; echo ${c:0:7}) 
 %global kmod_name rtl8723bs
@@ -88,5 +88,8 @@ fi
 
 
 %changelog
+* Thu Jul 28 2016 brian@bstinson.com - 20160728git621f7f3
+- Bump/update for building against the 4.4.16 kernel
+
 * Thu Mar 31 2016 Brian Stinson <brian@bstinson.com> - 20160331git56c76c9
 - First build
