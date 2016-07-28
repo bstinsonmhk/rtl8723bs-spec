@@ -7,7 +7,7 @@
 
 Name:		kmod-%{kmod_name}
 Version:	%{snapshotdate}
-Release:	%{shortcommit}%{?dist}
+Release:	git%{shortcommit}%{?dist}
 Summary:    Kernel module for Realtek 8723bs devices
 
 Group:		System Environment/Kernel
